@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box; }
+  * article, * aside, * figcaption, * figure,
+  * footer, * header, * menu, * nav, * section {
+    display: block; }
+  * body {
+    line-height: 1.4; }
+
+#container {
+  font-family: "Lato", sans-serif;
+  max-width: 800px;
+  margin: 0 auto; }
+
+article:before {
+  clear: both;
+  content: "";
+  display: block; }
+
+a {
+  color: #7ab732;
+  text-decoration: none; }
+  ahover {
+    color: #dd720a; }
+
+h1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 2.8em;
+  color: rgba(122, 183, 50, 0.6);
+  border-bottom: solid 1px rgba(122, 183, 50, 0.3);
+  margin-bottom: #969696; }
+  .special h1 {
+    color: #969696; }
+
+p {
+  font: 15px "Lato", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+  line-height: 1.4;
+  margin: 0 0 0.5em 0; }
+
+/*# sourceMappingURL=main.css.map */

@@ -2,15 +2,35 @@
 <html lang="en" dir="ltr">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="#">
-        <script src="/scripts/script.js" type="text/javascript">
-
-        </script>
-        <title></title>
+        <title>SASS Practice</title>
+        <link href="https://fonts.googleapis.com/css?family=Barlow:400,700|Lato" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css" type="text/css">
     </head>
     <body>
 
+        <!-- div#container>header>form>input.search+span.wrap>input.button^^+article>h1{Main Headline}+p{lorem}+div.box*3 -->
+
+        <div id="container">
+            <header>
+                <h1>Header Headline</h1>
+            </header>
+                <article>
+                    <h1>Article Headline</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore blanditiis ullam qui quia voluptatum natus quibusdam, placeat earum quaerat! Quaerat debitis quibusdam, iure, nam dolorum totam iusto dolores nesciunt labore.</p>
+                    <div class="box one"><h3>Heading</h3>Item 1</div>
+                    <div class="box two"><h3>Heading</h3>Item 2</div>
+                    <div class="box three"><h3>Heading</h3>Item 3</div>
+                </article>
+                <!-- article.special>h1+p{lorem} -->
+                <article class="special">
+                    <h1>Headline</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur <a href="#">link</a> adipisicing elit. Dolor voluptas, consectetur temporibus nulla officiis doloremque praesentium omnis, quasi totam accusantium veritatis sunt voluptates impedit laudantium excepturi placeat veniam itaque. Nihil.</p>
+                </article>
+
+                <footer>
+                    <p>&copy; 2019</p>
+                </footer>
+        </div>
     </body>
 </html>

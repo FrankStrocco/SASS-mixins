@@ -1,0 +1,16 @@
+// @include 'variables'
+
+@mixin boxStyle($bClr: $primaryColor)
+    width: $boxSize
+    height: $boxSize
+    padding: $medSpace
+    margin: 0 1em
+    display: inline-block
+    color: $neutralColor
+    background-color: $bClr
+    .one
+        @include boxStyle(blue)
+    .two
+        @include boxStyle(yellow)
+    .three
+        @include boxStyle(orange)
