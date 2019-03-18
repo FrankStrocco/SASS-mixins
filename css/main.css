@@ -44,4 +44,31 @@ p {
   line-height: 1.4;
   margin: 0 0 0.5em 0; }
 
+.one {
+  width: 150px;
+  height: 100px;
+  padding: 10px;
+  margin: 0 1em;
+  display: inline-block;
+  color: #fafafa;
+  background-color: #7ab732; }
+
+.two {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin: 0 1em;
+  display: inline-block;
+  color: #fafafa;
+  background-color: #0166d2; }
+
+.three {
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  margin: 0 1em;
+  display: inline-block;
+  color: #fafafa;
+  background-color: #05e7f5; }
+
 /*# sourceMappingURL=main.css.map */

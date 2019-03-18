@@ -1,16 +1,16 @@
 // @include 'variables'
 
-@mixin boxStyle($bClr: $primaryColor)
-    width: $boxSize
-    height: $boxSize
+@mixin boxStyle($width, $height, $clr: #333, $bClr: $primaryColor)
+    width: $width
+    height: $height
     padding: $medSpace
     margin: 0 1em
     display: inline-block
     color: $neutralColor
     background-color: $bClr
-    .one
-        @include boxStyle(blue)
-    .two
-        @include boxStyle(yellow)
-    .three
-        @include boxStyle(orange)
+.one
+    @include boxStyle(150px, 100px)
+.two
+    @include boxStyle(50px, 50px, #fff, #0166d2)
+.three
+    @include boxStyle(200px, 50px, $neutralColor, #05e7f5)
